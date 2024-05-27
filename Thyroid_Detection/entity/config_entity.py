@@ -49,7 +49,7 @@ class DataValidationConfig:
         self.missing_threshold:float = 0.3
         self.unrelevant_columns:list =['TSH_measured', 'T3_measured', 'TT4_measured', 'T4U_measured', 'FTI_measured', 'TBG_measured','referral_source','thyroid_surgery','query_hypothyroid','query_hyperthyroid','lithium','goitre']
         #self.exclude_columns:list=[TARGET_COLUMN,'sex','on_thyroxine','query_on_thyroxine','on_antithyroid_medication','sick','pregnant','I131_treatment','tumor','hypopituitary','psych']
-        self.base_file_path = os.path.join("hypothyroid_data.csv")
+        self.base_file_path = r"C:\Users\Harshith\project-batch1\THYROID_DETECTION\notebook\hypothyroid_data.csv"
 
 
 class DataTransformationConfig:

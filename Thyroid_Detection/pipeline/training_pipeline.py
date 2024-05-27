@@ -42,7 +42,7 @@ def start_training_pipeline():
         #model trainer
         model_trainer_config = config_entity.ModelTrainerConfig(training_pipeline_config=training_pipeline_config)
         model_trainer = ModelTrainer(model_trainer_config=model_trainer_config, data_transformation_artifact=data_transformation_artifact)
-        model_trainer_artifact = model_trainer.initiate_model_trainig()
+        model_trainer_artifact = model_trainer.initiate_model_training()
         
         
         

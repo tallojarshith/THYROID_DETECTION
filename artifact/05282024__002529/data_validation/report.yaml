@@ -1,0 +1,110 @@
+data_drift_within_test_dataset:
+  Class:
+    p_values: 1.0
+    same_distribution: true
+  FTI:
+    pvalues: 0.9677304459807986
+    same_distribution: true
+  I131_treatment:
+    p_values: 1.0
+    same_distribution: true
+  T3:
+    pvalues: 0.7890795629932426
+    same_distribution: true
+  T4U:
+    pvalues: 0.5865034436404761
+    same_distribution: true
+  TSH:
+    pvalues: 0.7098423770710749
+    same_distribution: true
+  TT4:
+    pvalues: 0.9906748841691175
+    same_distribution: true
+  age:
+    pvalues: 0.8670186597022267
+    same_distribution: true
+  hypopituitary:
+    p_values: 1.0
+    same_distribution: true
+  on_antithyroid_medication:
+    p_values: 1.0
+    same_distribution: true
+  on_thyroxine:
+    p_values: 1.0
+    same_distribution: true
+  pregnant:
+    p_values: 1.0
+    same_distribution: true
+  psych:
+    p_values: 1.0
+    same_distribution: true
+  query_on_thyroxine:
+    p_values: 1.0
+    same_distribution: true
+  sex:
+    p_values: 1.0
+    same_distribution: true
+  sick:
+    p_values: 1.0
+    same_distribution: true
+  tumor:
+    p_values: 1.0
+    same_distribution: true
+data_drift_within_train_dataset:
+  Class:
+    p_values: 1.0
+    same_distribution: true
+  FTI:
+    pvalues: 0.9999999999984093
+    same_distribution: true
+  I131_treatment:
+    p_values: 1.0
+    same_distribution: true
+  T3:
+    pvalues: 0.9999996544798279
+    same_distribution: true
+  T4U:
+    pvalues: 0.9999588281387787
+    same_distribution: true
+  TSH:
+    pvalues: 0.999996825429384
+    same_distribution: true
+  TT4:
+    pvalues: 1.0
+    same_distribution: true
+  age:
+    pvalues: 0.999999984658816
+    same_distribution: true
+  hypopituitary:
+    p_values: 1.0
+    same_distribution: true
+  on_antithyroid_medication:
+    p_values: 1.0
+    same_distribution: true
+  on_thyroxine:
+    p_values: 1.0
+    same_distribution: true
+  pregnant:
+    p_values: 1.0
+    same_distribution: true
+  psych:
+    p_values: 1.0
+    same_distribution: true
+  query_on_thyroxine:
+    p_values: 1.0
+    same_distribution: true
+  sex:
+    p_values: 1.0
+    same_distribution: true
+  sick:
+    p_values: 1.0
+    same_distribution: true
+  tumor:
+    p_values: 1.0
+    same_distribution: true
+missing_values_within_base_dataset:
+- TBG
+missing_values_within_test_dataset:
+- TBG
+missing_values_within_train_dataset:
+- TBG
