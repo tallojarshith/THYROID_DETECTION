@@ -7,7 +7,7 @@ class EnvironmentVariable:
         self.mongo_db_url = os.getenv("MONGO_DB_URL")
         self.HERUKO_API_KEY = os.getenv("HERUKO_API_KEY")
         self.HERUKO_APP_NAME = os.getenv("HERUKO_APP_NAME")
-
+        self.HERUKO_EMAIL = os.getenv("HERUKO_EMAIL")
 # Create an instance of EnvironmentVariable to access its attributes
 env_var = EnvironmentVariable()
 
