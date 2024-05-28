@@ -5,7 +5,7 @@ import certifi
 class EnvironmentVariable:
     def __init__(self):
         self.mongo_db_url = os.getenv("MONGO_DB_URL")
-        self.HERUKO_ACCESS_KEY = os.getenv("HERUKO_ACCESS_KEY")
+        self.HERUKO_API_KEY = os.getenv("HERUKO_API_KEY")
         self.HERUKO_APP_NAME = os.getenv("HERUKO_APP_NAME")
 
 # Create an instance of EnvironmentVariable to access its attributes
